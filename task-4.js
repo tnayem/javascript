@@ -4,15 +4,7 @@
 // sample-input: I am learning Programming to become a programmer
 
 // sample-output: Programming
-// const myName = "Md Tasdid Nayemaaaaaa";
-// const singleName = myName.split(" ")
-// let largestWord = "a"
-// for(const singleWOrd of singleName){
-//     if(singleWOrd.length>largestWord.length){
-//         largestWord = singleWOrd
-//     }
-// }
-// console.log(largestWord)
+
 function longestWord(sentences){
     const singleWOrds = sentences.split(" ")
     let largestWord = "a"
@@ -23,5 +15,6 @@ function longestWord(sentences){
     }
     return largestWord;
 }
-const myName = longestWord("My name Md Tasdid Nayem")
+const myName = longestWord("I am learning Programming to become a programmer")
 console.log(myName)
+
